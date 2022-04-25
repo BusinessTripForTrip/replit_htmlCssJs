@@ -1,0 +1,108 @@
+body {
+  display:contents;
+} /*html 태그에 직접적으로 스타일을 주는 방식으로 .은 class 방식에서만 씀 */
+
+.navbar {
+  float:right; /*오른쪽 정렬, 왼쪽 정렬*/
+  margin:20px;
+}
+
+.nav-item{
+  text-decoration:none;
+  color:black; /*여기서 color는 text컬러를 말함*/
+  margin-right:15px;
+} 
+
+.nav-item:hover { 
+  /*nav-item이라는 스타일을 가진 html에 hover(mouse over)이벤트가 생기면 다음과 같은 작업을 합니다*/
+  text-decoration:underline; 
+}
+
+.main {
+  margin-top:150px;
+  text-align: center;
+}
+
+.input-area {
+  margin-top:20px;
+}
+
+.input-box {
+  border:1px solid #dfe1e5;
+  width:584px;
+  height:46px;
+  border-radius:24px; /*input 박스 테두리 각*/
+  padding-left:40px;
+  padding-right:40px;
+}
+
+.search-icon{
+  position: relative; /*위치를 지금 내가 있는데서*/
+  left:40px;
+  color:#9aa0a6;
+}
+
+.mic-icon {
+  position: relative;
+  right:40px;
+  color:#9aa0a6;
+}
+
+.button-area {
+  padding-top:18px;
+}
+
+.button-style {
+  height:36px;
+      background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  font-family: Apple SD Gothic Neo,arial,sans-serif;
+    font-size: 14px;
+  margin: 11px 4px;
+    padding: 0 16px;
+  /*padding, margin값이 1개일 때는 4방향, 2개일때는 가로방향(위아래), 세로방향(좌우) */
+}
+
+.button-style:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+
+.footer {
+  position: absolute; /*요소를 어디에 위치할것인가? absolute는 절대값을 의미 */
+  bottom : 0px;
+      background: #f2f2f2;
+  width:100%; /*footer의 부모에 대한 100%*/
+}
+
+
+.first-line {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.second-line {
+  padding: 15px 30px;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.second-line-second {
+  float:right;
+}
+
+.last-line{
+  text-decoration:none;
+  font-size: 15px;
+  color: #70757a;
+} 
+
+.last-line:hover { 
+  text-decoration:underline; 
+}
